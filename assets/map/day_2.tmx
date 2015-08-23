@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="40" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64">
+  <image source="../images/tile/tiles.png" width="192" height="128"/>
+ </tileset>
+ <layer name="bg" width="20" height="40">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzN00sOwCAIBUAW7f2v3FWThvA+UG1q4kodAfGMiHPDPIqZ19VZZKF7HKvjoRhYrm4t1H73fNdDZxxH5ebUfmp1zUkubowrnRXejhz/WrddMU773/XyH1zhvfkLlRODuO6BvI75tHKMXavyct8gD9U1x5D3VR57K1S3N1613/FY/Sb5Vs5zqLucd2CmazGvMiNw/R1bvSebqxwndvaXkVXFxVyUi+pp1nPKdDxk5rNO/KovOn+k22vKRPd8OS5ChQy4
+  </data>
+ </layer>
+ <layer name="wall" width="20" height="40">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1kELwCAIhmHpsP//k3cKQkpfU3faBx0W7UGGuB4ReT5eNKPImdbJi2bI2ctY2staGW9nrV5Fbb9X492m2tuZHfVlelk/Rzzt7Pap552PeHQWWd7ct+YkncXaoiG1RWJ9uy4v0k/e2QHP3Xgk1PPeJ/9c0iuRHqS912FabiaV1uqRnGbfrUfMilmf9Syz865WfZfUJp3rnhdd2nsBCHUFow==
+  </data>
+ </layer>
+ <objectgroup name="enemy" width="20" height="40">
+  <object name=" " x="736" y="96" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="352" y="544" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="736" y="800" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="224" y="1056" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="224" y="1632" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="288" y="2208" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="480" y="2016" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="800" y="1824" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+  <object name=" " x="1056" y="2080" width="64" height="64">
+   <properties>
+    <property name="df" value="20"/>
+    <property name="hp" value="25"/>
+    <property name="level" value="2"/>
+    <property name="name" value="Mad Crab"/>
+    <property name="spd" value="8"/>
+    <property name="str" value="8"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="start" width="20" height="40">
+  <object x="1024" y="1408" width="64" height="64"/>
+ </objectgroup>
+ <layer name="fg" width="20" height="40">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+</map>

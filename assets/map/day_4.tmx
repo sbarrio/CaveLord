@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64">
+  <image source="../images/tile/tiles.png" width="192" height="128"/>
+ </tileset>
+ <layer name="bg" width="10" height="20">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZWBgYCUBswAxIxomRg02tfjUsaCpY0ESY0EzjwWNZsRiBzZ7CYkNBcxCJTWkqqWFmZT6n5A9LESoQccAGuMDew==
+  </data>
+ </layer>
+ <layer name="wall" width="10" height="20">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYCYRowNi1OBSS0gdG5XUsSGpY6OSOjYqqUNXg0vtYFPHRqSaoYwBLzkCuQ==
+  </data>
+ </layer>
+ <objectgroup name="enemy" width="10" height="20">
+  <object x="256" y="384" width="64" height="64">
+   <properties>
+    <property name="df" value="25"/>
+    <property name="hp" value="100"/>
+    <property name="level" value="4"/>
+    <property name="name" value="Hero"/>
+    <property name="spd" value="30"/>
+    <property name="str" value="30"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="start" width="10" height="20">
+  <object x="256" y="128" width="64" height="64"/>
+ </objectgroup>
+ <layer name="fg" width="10" height="20">
+  <properties>
+   <property name="tileset" value="tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU4AIAAyAAAQ==
+  </data>
+ </layer>
+</map>
